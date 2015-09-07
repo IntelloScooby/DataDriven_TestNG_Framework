@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56" started-at="2015-09-07T02:28:31Z" finished-at="2015-09-07T02:28:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56" started-at="2015-09-07T02:28:31Z" finished-at="2015-09-07T02:28:31Z">
+      <class name="tests.TestCase1">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestCase1@17b14695]" name="init" is-config="true" duration-ms="9053" started-at="2015-09-06T21:28:22Z" finished-at="2015-09-06T21:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="checkRunMode()[pri:0, instance:tests.TestCase1@17b14695]" name="checkRunMode" is-config="true" duration-ms="10" started-at="2015-09-06T21:28:31Z" finished-at="2015-09-06T21:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRunMode -->
+        <test-method status="PASS" signature="sampleTest(java.util.Hashtable)[pri:0, instance:tests.TestCase1@17b14695]" name="sampleTest" duration-ms="9" started-at="2015-09-06T21:28:31Z" data-provider="getData" finished-at="2015-09-06T21:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Message=Message1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="sampleTest(java.util.Hashtable)[pri:0, instance:tests.TestCase1@17b14695]" name="sampleTest" duration-ms="1" started-at="2015-09-06T21:28:31Z" data-provider="getData" finished-at="2015-09-06T21:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Message=Message2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="sampleTest(java.util.Hashtable)[pri:0, instance:tests.TestCase1@17b14695]" name="sampleTest" duration-ms="1" started-at="2015-09-06T21:28:31Z" data-provider="getData" finished-at="2015-09-06T21:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Message=Message3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="sampleTest(java.util.Hashtable)[pri:0, instance:tests.TestCase1@17b14695]" name="sampleTest" duration-ms="1" started-at="2015-09-06T21:28:31Z" data-provider="getData" finished-at="2015-09-06T21:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Message=Message4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="sampleTest(java.util.Hashtable)[pri:0, instance:tests.TestCase1@17b14695]" name="sampleTest" duration-ms="2" started-at="2015-09-06T21:28:31Z" data-provider="getData" finished-at="2015-09-06T21:28:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Message=Message5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TestCase1@17b14695]" name="close" is-config="true" duration-ms="95" started-at="2015-09-06T21:28:32Z" finished-at="2015-09-06T21:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

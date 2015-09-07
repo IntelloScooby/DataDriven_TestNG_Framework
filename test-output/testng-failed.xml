@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test - TestNG]">
+  <test name="Sample Test(failed)">
+    <classes>
+      <class name="tests.TestCase1">
+        <methods>
+          <include name="init"/>
+          <include name="sampleTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="checkRunMode"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- tests.TestCase1 -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [Automation Test - TestNG] -->
